@@ -4,6 +4,8 @@ import queue.Deque;
 import queue.SingleEndedQueue;
 import singlyLinkedList.SinglyLinkedList;
 import stack.Stack;
+import undirectedGraph.AdjListGraph;
+import undirectedGraph.AdjMatrixGraph;
 
 public class Main {
     public static void main(String[] args) {
@@ -76,5 +78,31 @@ public class Main {
 //        stack.add(3);
 //
 //        stack.display();
+
+//        -------------------------------------------------------
+//        -------------- Adjacency Matrix Graph -----------------
+//        -------------------------------------------------------
+
+//        AdjMatrixGraph graph = new AdjMatrixGraph(4);
+//        graph.addEdge(0, 1);
+//        graph.addEdge(1, 2);
+//        graph.addEdge(2, 3);
+//        graph.addEdge(3, 0);
+//
+//        System.out.println("V: "+ graph.getVertexes() + " | " + "E: "+ graph.getEdges());
+//        graph.display();
+
+//        -------------------------------------------------------
+//        --------------- Adjacency List Graph ------------------
+//        -------------------------------------------------------
+
+//        AdjListGraph graph = new AdjListGraph(4);
+//        graph.addEdge(0, 1);
+//        graph.addEdge(1, 2);
+//        graph.addEdge(2, 3);
+//        graph.addEdge(3, 0);
+//
+//        System.out.println("V: "+ graph.getVertexes() + " | " + "E: "+ graph.getEdges());
+//        graph.display();
     }
 }
